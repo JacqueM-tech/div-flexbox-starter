@@ -11,7 +11,7 @@
    ========================================================================== */
 
 html {
-    color: #222;
+    color:#222;
     font-size: 1em;
     line-height: 1.4;
 }
@@ -95,50 +95,89 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   html {
+    background-color: #59b9f1;
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 0em 2em;
+    font-size: 1.25em;
+    color: #fff;
+  }
 
-html {
-  background-color: #59b9f1;
-  height: 100%;
-  width: 100%;
+  header,
+  footer {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+  }  
+
+  header h1 {
+    font-family: 'Lora', sans-serif;
+    font-size: 3em;
+  }
+
+  main {
+    border-bottom: 1px solid lightgrey;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  p span {
+    font-family: 'Lora', sans-serif;
+  }
+
+  main p {
+    font-size: 1.35em;
+  }
+
+  header,
+  main {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+  } 
+
+
+  .flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+}
+  
+  .flex-items {
+    align-items: center;
+    display: flex;
+    line-height: 1.5em;
+    font-size: 1em;
+    justify-content: center;
+    width: 30%;
 }
 
-body {
-  font-family: 'Source Sans Pro', sans-serif;
-  padding: 2em;
-  font-size: 1.25em;
-  height: 100%;
-}
+#div-2 {
+    border-right: 1px dotted lightgrey;
+    border-left: 1px dotted lightgrey;
+    padding-left: 20px;
+    padding-right: 20px;
 
-h2 {
-    width: 70%;
 
 }
 
-.wrapper {
-  display: flex;
-  font-weight: 700;
-  justify-content: space-between;
-}
-
-.div-1, .div-2, .div-3 {
-  align-items: center;
-  color: #fff;
-  display: flex;
-  line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #59b9f1;
-  height: 300px;
-  justify-content: center;
-  padding: 10px;
-  width: 30%; 
-}
-
-.div-1, .div-2 {
-    border-right: #fff 2px solid;
-    
-}
-
-
+footer {
+    border-top: 1px solid lightgrey;
+  }
+  
+  footer i {
+    padding: 30px 20px 0 0;
+  }
+  
 /* ==========================================================================
    Helper classes
    ========================================================================== */

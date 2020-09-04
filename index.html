@@ -15,28 +15,36 @@
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
         <link href='http://fonts.googleapis.com/css?family=Lora:700' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     </head>
     <body>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-       <Header>
-           <h1>Hi, my name is Jacque.</h1>
-
-           <h2>I am a <span>Responsive Designer & Developer</span> who thrives on visual storytelling and excellent user experience.  When I am not spending time coding I can be found hanging out with family and friends, crafting, traveling, or dancing Zumba. </h2>
-
-        </Header>
-        <section class="wrapper">
-            <div class="div-1">
-                <p>"Measuring programming progress by lines of code is like measuring aircraft building progress by weight."<br>-Bill Gates <br></p>
-            </div>
-            <div class="div-2">
-                <p>"My code DOESN'T work, I have no idea why. My code WORKS, I have no idea why."<br>-Anonymous</p>
-            </div>
-            <div class="div-3">
+    <section class="flex-container">
+        <header>
+            <h1>Hi, my name is Jacque.</h1>
+        </header>
+        <main>
+            <p>I am a <span>Responsive Designer & Developer</span> who thrives on visual storytelling and excellent user experience.  When I am not spending time coding I can be found hanging out with family and friends, crafting, traveling, or dancing Zumba. </p>
+        </main>
+        <div id="div-1" class="flex-items">
+            <p>"Measuring programming progress by lines of code is like measuring aircraft building progress by weight."<br>-Bill Gates <br></p>
+        </div>
+        <div id="div-2" class="flex-items">
+            <p>"My code DOESN'T work, I have no idea why. My code WORKS, I have no idea why."<br>-Anonymous</p>
+        </div>
+        <div id="div-3" class="flex-items">
                 <p>"Digital design is like painting, except the paint never dries."<br>-Neville Brody</p>
-            </div>
-        </section>    
+        </div>
+        <footer>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+            
+        </footer>
+    </section>    
+ 
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
